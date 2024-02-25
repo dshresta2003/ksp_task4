@@ -1,0 +1,12 @@
+body{
+    background-image: url(background.jpeg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+button{
+    background-color:green;
+    color: white;
+}
+h1{
+    color: palevioletred;
+}

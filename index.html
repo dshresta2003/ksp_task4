@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>task4</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <form>
+        <u><h2>Task4</h2></u>
+        <h1>SD CupCakes</h1>
+        <h2>FeedBack Form</h2>
+        <label>First Name:</label>
+        <input for="Fname" type="text" required>
+        <label>Last Name:</label>
+        <input for="Lname" type="text" required><br><br>
+        <label>Email Id:</label>
+        <input for="mail" type="email" required>
+        <label>PhoneNumber:</label>
+        <input for="num" type="number" required><br><br>
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="female">Female
+        <br><br>
+        <label>DOB:</label>
+        <input type="date" name="dob" id="dob"><br><br>
+        <label>Location:</label>
+        <select name="location" id="location" required>
+            <option value="Select">Select</option>
+            <option value="Hi-TechCity">Hi-TechCity</option>
+            <option value="Madhapur">Madhapur"</option>
+            <option value="Kukatpally">Kukatpally</option>
+            <option value="Bowenpally">Bowenpally</option>
+            <option value="Jubilee-hills">Jubilee-hills</option>
+
+        </select><br><br>
+        <label for="tc">Terms&conditions</label><br>
+        <input type="checkbox" id="tc" name="tc" required>Accept Terms and Conditions<br>
+        <input type="checkbox" id="accept" name="accept" required>Provided details are correct<br><br>
+        <label>Feedback Message:</label><br>
+        <textarea for="msg" rows="5" cols="30"></textarea><br>
+        <button type="submit">submit</button>
+    </form>
+</body>
+<script src="script.js"></script>
+</html>
